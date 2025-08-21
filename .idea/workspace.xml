@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Explained the basic MathematicalPrinciples underlying basic machine learning using numpy and scipy">
-      <change afterPath="$PROJECT_DIR$/DataDistribution.py" afterDir="false" />
+    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)">
+      <change afterPath="$PROJECT_DIR$/NormalDataDistribution/NormalDataDistribution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755788551652</updated>
-      <workItem from="1755788552713" duration="3590000" />
+      <workItem from="1755788552713" duration="5315000" />
     </task>
     <task id="LOCAL-00001" summary="Set-up Basic Machine Learning Project">
       <option name="closed" value="true" />
@@ -97,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755792382109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)">
+      <option name="closed" value="true" />
+      <created>1755793241826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755793241826</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,10 +114,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set-up Basic Machine Learning Project" />
     <MESSAGE value="Explained the basic MathematicalPrinciples underlying basic machine learning using numpy and scipy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explained the basic MathematicalPrinciples underlying basic machine learning using numpy and scipy" />
+    <MESSAGE value="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonMachineLearning$MathmaticalPrinciples.coverage" NAME="MathmaticalPrinciples Coverage Results" MODIFIED="1755792216268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonMachineLearning$DataDistribution.coverage" NAME="DataDistribution Coverage Results" MODIFIED="1755792896322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$DataDistribution.coverage" NAME="DataDistribution Coverage Results" MODIFIED="1755793136012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
