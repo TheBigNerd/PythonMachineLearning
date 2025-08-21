@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)">
-      <change afterPath="$PROJECT_DIR$/NormalDataDistribution/NormalDataDistribution.py" afterDir="false" />
+    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Created a section explaining Guassian Data Distribution and representing into using a histogram">
+      <change afterPath="$PROJECT_DIR$/LinearRegression/LinearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultipleRegression/MultipleRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultipleRegression/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PolynomialRegression/PolynomialRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScatterPlot/ScatterPlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +52,19 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.DataDistribution.executor": "Run",
+    "Python.LinearRegression.executor": "Run",
     "Python.MathmaticalPrinciples.executor": "Run",
+    "Python.MultipleRegression.executor": "Run",
+    "Python.NormalDataDistribution.executor": "Run",
+    "Python.PolynomialRegression.executor": "Run",
+    "Python.ScatterPlot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/ethan/PycharmProjects/PythonMachineLearning/MultipleRegression",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +74,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ethan\PycharmProjects\PythonMachineLearning\MultipleRegression" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755788551652</updated>
-      <workItem from="1755788552713" duration="5315000" />
+      <workItem from="1755788552713" duration="9368000" />
     </task>
     <task id="LOCAL-00001" summary="Set-up Basic Machine Learning Project">
       <option name="closed" value="true" />
@@ -105,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755793241826</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created a section explaining Guassian Data Distribution and representing into using a histogram">
+      <option name="closed" value="true" />
+      <created>1755797647979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755797647979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,10 +138,16 @@
     <MESSAGE value="Set-up Basic Machine Learning Project" />
     <MESSAGE value="Explained the basic MathematicalPrinciples underlying basic machine learning using numpy and scipy" />
     <MESSAGE value="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)" />
+    <MESSAGE value="Created a section explaining Guassian Data Distribution and representing into using a histogram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a section explaining Guassian Data Distribution and representing into using a histogram" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$NormalDataDistribution.coverage" NAME="NormalDataDistribution Coverage Results" MODIFIED="1755797544860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NormalDataDistribution" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$MathmaticalPrinciples.coverage" NAME="MathmaticalPrinciples Coverage Results" MODIFIED="1755792216268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1755798504011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$DataDistribution.coverage" NAME="DataDistribution Coverage Results" MODIFIED="1755793136012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$MultipleRegression.coverage" NAME="MultipleRegression Coverage Results" MODIFIED="1755801384231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MultipleRegression" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$PolynomialRegression.coverage" NAME="PolynomialRegression Coverage Results" MODIFIED="1755800123372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PolynomialRegression" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$ScatterPlot.coverage" NAME="ScatterPlot Coverage Results" MODIFIED="1755797912201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ScatterPlot" />
   </component>
 </project>
