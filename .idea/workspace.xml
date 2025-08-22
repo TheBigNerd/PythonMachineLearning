@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Created a section explaining Guassian Data Distribution and representing into using a histogram">
-      <change afterPath="$PROJECT_DIR$/LinearRegression/LinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleRegression/MultipleRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultipleRegression/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PolynomialRegression/PolynomialRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScatterPlot/ScatterPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755788551652</updated>
-      <workItem from="1755788552713" duration="9368000" />
+      <workItem from="1755788552713" duration="10072000" />
     </task>
     <task id="LOCAL-00001" summary="Set-up Basic Machine Learning Project">
       <option name="closed" value="true" />
@@ -128,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755797647979</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn">
+      <option name="closed" value="true" />
+      <created>1755801517879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755801517879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +140,8 @@
     <MESSAGE value="Explained the basic MathematicalPrinciples underlying basic machine learning using numpy and scipy" />
     <MESSAGE value="Explained how to create large datasets with Numpy and visualise them using a histogram (plt)" />
     <MESSAGE value="Created a section explaining Guassian Data Distribution and representing into using a histogram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a section explaining Guassian Data Distribution and representing into using a histogram" />
+    <MESSAGE value="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonMachineLearning$NormalDataDistribution.coverage" NAME="NormalDataDistribution Coverage Results" MODIFIED="1755797544860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NormalDataDistribution" />
