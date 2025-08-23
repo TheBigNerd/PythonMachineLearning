@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Use standardised scaling and use it during a multiple regression prediction">
-      <change afterPath="$PROJECT_DIR$/train&amp;test/train&amp;test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Using Test and Train principles to predict values (polynomial regression)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +92,7 @@
       <updated>1755788551652</updated>
       <workItem from="1755788552713" duration="10072000" />
       <workItem from="1755873330570" duration="1556000" />
-      <workItem from="1755975054209" duration="1147000" />
+      <workItem from="1755975054209" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="Set-up Basic Machine Learning Project">
       <option name="closed" value="true" />
@@ -153,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755975671636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Using Test and Train principles to predict values (polynomial regression)">
+      <option name="closed" value="true" />
+      <created>1755976522911</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755976522911</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +171,8 @@
     <MESSAGE value="Created a section explaining Guassian Data Distribution and representing into using a histogram" />
     <MESSAGE value="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn" />
     <MESSAGE value="Use standardised scaling and use it during a multiple regression prediction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use standardised scaling and use it during a multiple regression prediction" />
+    <MESSAGE value="Using Test and Train principles to predict values (polynomial regression)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Test and Train principles to predict values (polynomial regression)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,7 +188,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonMachineLearning$NormalDataDistribution.coverage" NAME="NormalDataDistribution Coverage Results" MODIFIED="1755797544860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NormalDataDistribution" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1755975597887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scale" />
-    <SUITE FILE_PATH="coverage/PythonMachineLearning$train_test.coverage" NAME="train&amp;test Coverage Results" MODIFIED="1755976193875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train&amp;test" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$train_test.coverage" NAME="train&amp;test Coverage Results" MODIFIED="1755976373411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train&amp;test" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$MathmaticalPrinciples.coverage" NAME="MathmaticalPrinciples Coverage Results" MODIFIED="1755792216268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1755798504011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$DataDistribution.coverage" NAME="DataDistribution Coverage Results" MODIFIED="1755793136012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
