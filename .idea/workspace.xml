@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn" />
+    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn">
+      <change afterPath="$PROJECT_DIR$/Scale/Scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scale/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "TheBigNerd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TheBigNerd&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TheBigNerd/PythonMachineLearning.git",
-    "accountId": "0a110995-736e-49ea-b470-9ecaf9075f88"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TheBigNerd/PythonMachineLearning.git&quot;,
+    &quot;accountId&quot;: &quot;0a110995-736e-49ea-b470-9ecaf9075f88&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="31bMvjeOCsSpff8dLIfUqypRVVv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,6 +54,7 @@
     "Python.MultipleRegression.executor": "Run",
     "Python.NormalDataDistribution.executor": "Run",
     "Python.PolynomialRegression.executor": "Run",
+    "Python.Scale.executor": "Run",
     "Python.ScatterPlot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -57,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/ethan/PycharmProjects/PythonMachineLearning/MultipleRegression",
+    "last_opened_file_path": "C:/Users/ethan/PycharmProjects/PythonMachineLearning/Scale",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ethan\PycharmProjects\PythonMachineLearning\Scale" />
       <recent name="C:\Users\ethan\PycharmProjects\PythonMachineLearning\MultipleRegression" />
     </key>
   </component>
@@ -88,6 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1755788551652</updated>
       <workItem from="1755788552713" duration="10072000" />
+      <workItem from="1755873330570" duration="1556000" />
+      <workItem from="1755975054209" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="Set-up Basic Machine Learning Project">
       <option name="closed" value="true" />
@@ -129,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755801517879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn">
+      <option name="closed" value="true" />
+      <created>1755873356430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755873356430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
