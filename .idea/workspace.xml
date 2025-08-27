@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Using Test and Train principles to predict values (polynomial regression)" />
+    <list default="true" id="7dc34aea-2549-4af7-a983-fc422751f3f1" name="Changes" comment="Updating workspace">
+      <change afterPath="$PROJECT_DIR$/DecisionTree/DecisionTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTree/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +49,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.DataDistribution.executor": "Run",
+    "Python.DecisionTree.executor": "Run",
     "Python.LinearRegression.executor": "Run",
     "Python.MathmaticalPrinciples.executor": "Run",
     "Python.MultipleRegression.executor": "Run",
@@ -59,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/ethan/PycharmProjects/PythonMachineLearning/Scale",
+    "last_opened_file_path": "C:/Users/ethan/PycharmProjects/PythonMachineLearning/DecisionTree",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ethan\PycharmProjects\PythonMachineLearning\DecisionTree" />
       <recent name="C:\Users\ethan\PycharmProjects\PythonMachineLearning\Scale" />
       <recent name="C:\Users\ethan\PycharmProjects\PythonMachineLearning\MultipleRegression" />
     </key>
@@ -92,7 +98,8 @@
       <updated>1755788551652</updated>
       <workItem from="1755788552713" duration="10072000" />
       <workItem from="1755873330570" duration="1556000" />
-      <workItem from="1755975054209" duration="1459000" />
+      <workItem from="1755975054209" duration="1517000" />
+      <workItem from="1756326679985" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="Set-up Basic Machine Learning Project">
       <option name="closed" value="true" />
@@ -158,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755976522911</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updating workspace">
+      <option name="closed" value="true" />
+      <created>1755976566764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755976566764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +187,8 @@
     <MESSAGE value="Explained and plotted:&#10;- LinearRegression&#10;- PolynomialRegression&#10;- MultipleRegression&#10;&#10;Using Numpy, MPL, Pandas and SciPy and SKLearn" />
     <MESSAGE value="Use standardised scaling and use it during a multiple regression prediction" />
     <MESSAGE value="Using Test and Train principles to predict values (polynomial regression)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Test and Train principles to predict values (polynomial regression)" />
+    <MESSAGE value="Updating workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,9 +204,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonMachineLearning$NormalDataDistribution.coverage" NAME="NormalDataDistribution Coverage Results" MODIFIED="1755797544860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NormalDataDistribution" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1755975597887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scale" />
-    <SUITE FILE_PATH="coverage/PythonMachineLearning$train_test.coverage" NAME="train&amp;test Coverage Results" MODIFIED="1755976373411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train&amp;test" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$train_test.coverage" NAME="train&amp;test Coverage Results" MODIFIED="1756326709988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train&amp;test" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$MathmaticalPrinciples.coverage" NAME="MathmaticalPrinciples Coverage Results" MODIFIED="1755792216268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1755798504011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinearRegression" />
+    <SUITE FILE_PATH="coverage/PythonMachineLearning$DecisionTree.coverage" NAME="DecisionTree Coverage Results" MODIFIED="1756327905262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$DataDistribution.coverage" NAME="DataDistribution Coverage Results" MODIFIED="1755793136012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$MultipleRegression.coverage" NAME="MultipleRegression Coverage Results" MODIFIED="1755801384231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MultipleRegression" />
     <SUITE FILE_PATH="coverage/PythonMachineLearning$PolynomialRegression.coverage" NAME="PolynomialRegression Coverage Results" MODIFIED="1755800123372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PolynomialRegression" />
